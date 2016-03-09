@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "5.2.*",
+        "illuminate/support": "~4|~5",
         "cartalyst/stripe": "2.0.*"
     },
     "require-dev": {
@@ -32,5 +32,6 @@
             "dev-master": "4.0.x-dev"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
